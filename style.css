@@ -102,6 +102,6 @@ footer p {
 	margin-left: 10%;
 }
 
-.textGroup p, .textGroup a h2 {
+.textGroup p, .textGroup a h2, .textGroup h2 {
 	margin: 2%;
 }
