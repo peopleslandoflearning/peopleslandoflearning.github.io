@@ -46,7 +46,7 @@ function filterBooks(tr) { //Filters the table according to book name
 }
 
 function toggleHidden(id) {
-	var icon = id.getElementByClassName("hiddenIcon")[0];
+	var icon = id.getElementsByClassName("hiddenIcon")[0];
 	if (id.style.display == "none" || id.style.display == "") {
 		id.style.display = "block";
 		icon.innerText = "˅";
