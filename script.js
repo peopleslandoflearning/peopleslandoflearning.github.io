@@ -1,6 +1,5 @@
-function bookCount() { //Changes placeholder of input to have the amount of books
-	var bookCount = document.getElementById('bookTable').rows.length - 1;
-	document.getElementById('search').placeholder="Search " + bookCount + " books...";
+function bookCount(table) { //Changes placeholder of input to have the amount of books
+	var bookCount = table.rows.length - 1;
 	return bookCount;
 }
 
