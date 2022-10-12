@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+ 	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="icon" type="image/x-icon" href="/assets/icon.ico">
+		<title>W E L C O M E</title>
+		<meta content="The People's Land of Learning" property="og:title"/>
+		<meta content="An educational resource for Anti-Colonial Marxist Leninist and Feminist theory" property="og:description"/>
+		<meta content="https://peopleslandoflearning.github.io/" property="og:url"/>
+		<meta content="/assets/icon.png" property="og:image"/>
+		<meta content="#ab5675" data-react-helmet="true" name="theme-color"/>
+		<link href="/style.css" rel="stylesheet" type="text/css" media="all">
+		<script src="/script.js"></script>
+  	</head>
+ 	<body>
+		<header>
+			<a href="/" id="title"><h1>The People's Land of Learning</h1></a>
+			<p>An educational resource for Anti-Colonial Marxist Leninist and Feminist theory.</p>
+			<div id="buttonMenu">
+				<a class="button" href="/pages/dictionary"><p>DICTIONARY</p></a>
+				<a class="button" href="/pages/contact"><p>FEEDBACK</p></a>
+				<a class="button" href="/pages/library/index"><p>LIBRARY</p></a>
+				<a class="button" href="/pages/resources/index"><p>RESOURCES</p></a>
+			</div>
+			<hr/>
+		</header>
+		<div class="container">
+			<p>There is a weekly documentary stream on the <a href="https://discord.gg/hQ3XxjrfmF>"discord server</a> for anyone interested.</p>
+			<p>Another source for documentaries can be found here: <a href="https://www.filmsforaction.org/walloffilms/">https://www.filmsforaction.org/walloffilms/</a></p>
+			<input type="text" id="search" onkeyup="filterBooks(tr)" placeholder="">
+			<table id="bookTable">
+				<tr>
+					<th width="25%"><h3>Author</h3></th>
+					<th width="55%"><h3>Title</h3></th>
+					<th width="15%"><h3>Notes</h3></th>
+				</tr>
+				<!--- Book adding template (dont worry about rowspans, its taken care of automatically)
+				<tr> 
+					<td><p align="center">Author</p></td>
+					<td><p align="left"><a href="">Doc Title</a></p></td>
+				</tr> 
+				Put <br/> if there is no Audiobook/Notes--->
+				
+			</table>
+		</div>
+		<footer>
+			<hr/>
+			<h4>Contacts</h4>
+			<p>Discord server: <a href="https://discord.gg/hQ3XxjrfmF">https://discord.gg/hQ3XxjrfmF</a></p>
+			<p>Email address: <a href="mailto:serious_bee@protonmail.com">serious_bee@protonmail.com</a></p>
+		</footer>
+  	</body>
+	<script>
+		var table = document.getElementById("bookTable");
+		var tr = table.getElementsByTagName("tr");
+		document.getElementById('search').placeholder = "Search " + bookCount(table) + " documentaries..."; //Startup functions
+		mergeRow(tr)
+	</script>
+</html>
