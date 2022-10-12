@@ -11,6 +11,7 @@
 		<meta content="/assets/icon.png" property="og:image"/>
 		<meta content="#ab5675" data-react-helmet="true" name="theme-color"/>
 		<link href="/style.css" rel="stylesheet" type="text/css" media="all">
+		<script src="/script.js"></script>
   	</head>
  	<body>
 		<header>
@@ -26,7 +27,7 @@
 		</header>
 		<!-- Hidden container template
 			<div class="hidden">
-				<h2 class="hiddenHead" onClick="toggleHidden(hidden1)">Category <span class="hiddenIcon">></span></h2>
+				<h2 class="hiddenHead" onClick="toggleHidden(document.getElementById('hidden1'))">Category <span class="hiddenIcon">></span></h2>
 				<div id="hidden1" class="hiddenBody">
      					<a href=""><p>Podcast Name</p></a>
 				</div>
