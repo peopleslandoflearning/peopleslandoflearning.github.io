@@ -104,12 +104,12 @@ footer p {
 	margin-bottom: 5%;
 }
 
-.hiddenBody p, .textGroup p, .textGroup a h2, .textGroup h2 {
+.hiddenBody p, .textGroup p {
 	margin-top: 2%;
 	margin-bottom: 2%;
 }
 
-.hiddenHead {
+.hiddenHead, .textGroup h2 {
 	margin-top: 5%;
 	margin-bottom: 0%;
 }
