@@ -95,13 +95,17 @@ footer p {
 	padding-right: 0.6em;
 }
 
-.quote {
-	font-style: italic;
+.hidden .hiddenBody {
+	display: none;
 }
 
-.textGroup {
+.hidden, .textGroup {
 	margin-left: 10%;
 	margin-bottom: 5%;
+}
+
+.quote {
+	font-style: italic;
 }
 
 .textGroup p, .textGroup a h2, .textGroup h2 {
