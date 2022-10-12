@@ -1,0 +1,101 @@
+:root {
+	--backColor: #e8d8a5; /* Old colour: #fbdbcd */
+	--textColor: #452923; /* Old colour: #73464c */
+	--linkColor: #e55d4d; /* Old colour: #ab5675 */
+	--borderColor: #32373c; /* Old colour: #1e1e1e */
+}
+
+body {
+	background-color: var(--backColor);
+	color: var(--textColor);
+	font-family: Georgia, Verdana;
+	font-size: 115%;
+}
+
+a, a:hover, #title:visited {
+	color: var(--linkColor);
+}
+
+a.button, a:visited.button {
+	color: var(--textColor);
+	text-decoration: none;
+}
+
+a:visited {
+	color: #6b203b; /* Old colour: #6b203b */
+}
+
+header, footer, #temp {
+	text-align: center;
+}
+
+header, footer, .container {
+	margin: auto;
+	margin-bottom: 1%;
+	max-width: 70%;
+}
+
+footer {
+	font-size: 85%;
+}
+
+footer p {
+	margin: 0;
+}
+
+#buttonMenu {
+	display: flex;
+  	flex-wrap: wrap;
+  	justify-content: center;
+  	align-items: center;
+  	gap: 10px;
+}
+
+#bookTable {
+	border-collapse: collapse;
+}
+
+#bookTable td {
+	padding-left: 0.5%;
+}
+
+#bookTable, th, td {
+	border: 1px solid var(--borderColor);
+}
+
+#bookTable th:hover, #bookTable td:hover, #search {
+	color: var(--linkColor);
+}
+
+#bookTable, #search {
+	margin-bottom: 1%;
+}
+
+#search {
+	font-size: 140%;
+	border: 3px solid var(--borderColor);
+	border-radius: 25px;
+	background-color: var(--backColor);
+	padding-left: 1%;
+	width: 100%;
+}
+
+#title, #title:visited {
+	text-decoration: none;
+}
+
+#title:hover {
+	text-decoration: underline;
+}
+
+.button {
+	border: 1px solid var(--borderColor);
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	padding-top: 0.2em;
+	padding-bottom: 0.2em;
+}
+
+.quote {
+	font-style: italic;	
+}
