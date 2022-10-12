@@ -99,17 +99,19 @@ footer p {
 	display: none;
 }
 
-.hiddenBody p, .textGroup p, .textGroup a h2, .textGroup h2 {
-  margin-top: 1%;
-}
-
-.hiddenBody p, .hiddenHead {
-	margin-bottom: 0%;
-}
-
 .hiddenBody, .hiddenHead, .textGroup {
 	margin-left: 10%;
 	margin-bottom: 5%;
+}
+
+.hiddenBody p, .textGroup p, .textGroup a h2, .textGroup h2 {
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+.hiddenHead {
+	margin-top: 5%;
+	margin-bottom: 0%;
 }
 
 .quote {
