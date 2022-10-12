@@ -46,12 +46,9 @@ function filterBooks(tr) { //Filters the table according to book name
 }
 
 function toggleHidden(id) {
-	var icon = id.getElementsByClassName("hiddenIcon")[0];
 	if (id.style.display == "none" || id.style.display == "") {
 		id.style.display = "block";
-		icon.innerText = "˅";
 	} else {
 		id.style.display = "";
-		icon.innerText = ">";
 	}
 }
