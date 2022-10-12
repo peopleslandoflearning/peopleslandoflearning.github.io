@@ -24,39 +24,61 @@
 			</div>
 			<hr/>
 		</header>
+		<!-- Hidden container template
+			<div class="hidden">
+				<h2 class="hiddenHead" onClick="toggleHidden(hidden1)">Category <span class="hiddenIcon">></span></h2>
+				<div id="hidden1" class="hiddenBody">
+     					<a href=""><p>Podcast Name</p></a>
+				</div>
+			</div>
+		-->
 		<div class="container">
 			<div class="hidden">
-				<h2>Books and Theory</h2>
-				<p>Coffee with Comrades</p>
-				<p>Current Events</p>
-				<p>Haymarket Books</p>
-				<p>Liberation Audio</p>
-				<p>Psychic Dolphin Garage</p>
-				<p>Red Menace</p>
-				<p>TRASHFUTURE</p>
-				<p>This is Hell!</p>
+				<h2 class="hiddenHead" onClick="toggleHidden(document.getElementById('hidden1'))">Books and Theory <span class="hiddenIcon">></span></h2>
+				<div id="hidden1" class="hiddenBody">
+					<a href="https://youtube.com/channel/UCXu5dcswjbA0zpXLIBn5NmQ"><p>Haymarket Books</p></a>
+					<a href="https://redmenace.libsyn.com/"><p>Red Menace</p></a>
+				</div>
 			</div>
 			<div class="hidden">
-				<h2>General Anti-Capitalism</h2>
-				<p>A.K. 47</p>
-				<p>Millennials Are Killing Capitalism</p>
-				<p>Revolutionary Left Radio</p>
-				<p>Srsly Wrong</p>
-				<p>The Funambulist Magazine</p>
-				<p>This is Revolution Podcast</p>
-				<p>Working Class Heroes</p>
+				<h2 class="hiddenHead" onClick="toggleHidden(document.getElementById('hidden2'))">Current Events <span class="hiddenIcon">></span></h2>
+				<div id="hidden2" class="hiddenBody">
+					<a href="https://coffeewithcomrades.com/"><p>Coffee with Comrades</p></a>
+					<a href="https://soundcloud.com/liberation-news"><p>Liberation Audio</p></a>
+					<a href="https://anchor.fm/psychicdolphingarage"><p>Psychic Dolphin Garage</p></a>
+					<a href="https://soundcloud.com/this-is-hell"><p>This is Hell!</p></a>
+					<a href="https://trashfuturepodcast.podbean.com/"><p>TRASHFUTURE</p></a>
+				</div>
 			</div>
 			<div class="hidden">
-				<h2>History</h2>
-				<p>Working Class History</p>
+				<h2 id="hidden3" class="hiddenHead" onClick="toggleHidden(document.getElementById('hidden3'))">General Anti-Capitalism <span class="hiddenIcon">></span></h2>
+				<div class="hiddenBody">
+					<a href="https://kristenghodsee.com/podcast"><p>A.K. 47</p></a>
+					<a href="https://millennialsarekillingcapitalism.libsyn.com/"><p>Millennials Are Killing Capitalism</p></a>
+					<a href="https://youtube.com/channel/UCGz5KS3SlLJHSVc4HtYH3QA"><p>Revolutionary Left Radio</p></a>
+					<a href="https://srslywrong.com/"><p>Srsly Wrong</p></a>
+					<a href="https://thefunambulist.net/podcast"><p>The Funambulist Magazine</p></a>
+					<a href="https://www.youtube.com/c/THISISREVOLUTIONpodcast/featured"><p>This is Revolution Podcast</p></a>
+					<a href="https://soundcloud.com/workingclassheroespod"><p>Working Class Heroes</p></a>
+				</div>
 			</div>
 			<div class="hidden">
-				<h2>Neurodiversity/Disability</h2>
-				<p>It’s Not Just in Your Head</p>
+				<h2 id="hidden4" class="hiddenHead" onClick="toggleHidden(document.getElementById('hidden4'))">History <span class="hiddenIcon">></span></h2>
+				<div class="hiddenBody">
+					<a href="https://workingclasshistory.com/"><p>Working Class History</p></a>
+				</div>
 			</div>
 			<div class="hidden">
-				<h2>Praxis</h2>
-				<p>Live Like the World is Dying</p>
+				<h2 id="hidden5" class="hiddenHead" onClick="toggleHidden(document.getElementById('hidden5'))">Neurodiversity/Disability <span class="hiddenIcon">></span></h2>
+				<div class="hiddenBody">
+					<a href="https://anchor.fm/itsnotallinyourhead/"><p>It’s Not Just in Your Head</p></a>
+				</div>
+			</div>
+			<div class="hidden">
+				<h2 id="hidden6" class="hiddenHead" onClick="toggleHidden(document.getElementById('hidden6'))">Praxis <span class="hiddenIcon">></span></h2>
+				<div class="hiddenBody">
+					<a href="https://www.liveliketheworldisdying.com/"><p>Live Like the World is Dying</p></a>
+				</div>
 			</div>
 		</div>
 		<footer>
