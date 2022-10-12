@@ -53,6 +53,7 @@ footer p {
 
 #bookTable {
 	border-collapse: collapse;
+	width: 100%;
 }
 
 #bookTable td {
@@ -77,7 +78,7 @@ footer p {
 	border-radius: 25px;
 	background-color: var(--backColor);
 	padding-left: 1%;
-	width: 100%;
+	width: 98%;
 }
 
 #title, #title:visited {
