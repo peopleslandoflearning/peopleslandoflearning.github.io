@@ -44,3 +44,11 @@ function filterBooks(tr) { //Filters the table according to book name
 		mergeRow();
 	}
 }
+
+function toggleHidden(id) {
+	if (id.style.display == "none" || id.style.display == "") {
+		id.style.display = "block";
+	} else {
+		id.style.display = "";
+	}
+}
