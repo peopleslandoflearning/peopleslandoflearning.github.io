@@ -95,5 +95,13 @@ footer p {
 }
 
 .quote {
-	font-style: italic;	
+	font-style: italic;
+}
+
+.textGroup {
+	margin-left: 10%;
+}
+
+.textGroup p, .textGroup a h2 {
+	margin: 2%;
 }
