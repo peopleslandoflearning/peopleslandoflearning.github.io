@@ -99,7 +99,7 @@ footer p {
 	display: none;
 }
 
-.hidden p {
+.hiddenBody p, .textGroup p, .textGroup a h2, .textGroup h2 {
   margin-top: 1%;
 }
 
@@ -114,8 +114,4 @@ footer p {
 
 .quote {
 	font-style: italic;
-}
-
-.textGroup p, .textGroup a h2, .textGroup h2 {
-	margin: 1%;
 }
