@@ -99,7 +99,15 @@ footer p {
 	display: none;
 }
 
-.hidden, .textGroup {
+.hidden p {
+  margin-top: 1%;
+}
+
+.hiddenBody p, .hiddenHead {
+	margin-bottom: 0%;
+}
+
+.hiddenBody, .hiddenHead, .textGroup {
 	margin-left: 10%;
 	margin-bottom: 5%;
 }
