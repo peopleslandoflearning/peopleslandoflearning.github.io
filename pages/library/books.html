@@ -1630,7 +1630,7 @@
 	<script src="/script.js">
 		var table = document.getElementById("bookTable");
 		var tr = table.getElementsByTagName("tr");
-		document.getElementById('search').placeholder = "Search " + bookCount() + " books..."; //Startup functions
+		document.getElementById('search').placeholder = "Search " + bookCount(table) + " books..."; //Startup functions
 		mergeRow(tr)
 	</script>
 </html>
