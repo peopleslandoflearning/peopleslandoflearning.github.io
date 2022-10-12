@@ -59,7 +59,7 @@ footer p {
 	padding-left: 0.5%;
 }
 
-#bookTable, th, td {
+#bookTable, #bookTable th, #bookTable td {
 	border: 1px solid var(--borderColor);
 }
 
