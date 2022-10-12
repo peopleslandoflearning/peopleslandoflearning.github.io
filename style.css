@@ -90,10 +90,8 @@ footer p {
 
 .button {
 	border: 1px solid var(--borderColor);
-	padding-left: 0.5em;
-	padding-right: 0.5em;
-	padding-top: 0.2em;
-	padding-bottom: 0.2em;
+	padding-left: 0.6em;
+	padding-right: 0.6em;
 }
 
 .quote {
