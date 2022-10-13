@@ -105,16 +105,16 @@ footer p {
 
 .hiddenBody, .hiddenHead, .textGroup {
 	margin-left: 10%;
-	margin-bottom: 5%;
+	margin-bottom: 2.5%;
 }
 
 .hiddenBody p, .textGroup p {
-	margin-top: 2%;
-	margin-bottom: 2%;
+	margin-top: 1.5%;
+	margin-bottom: 1.5%;
 }
 
 .hiddenHead, .textGroup h2, .textGroup h3 {
-	margin-top: 5%;
+	margin-top: 0%;
 	margin-bottom: 0%;
 }
 
