@@ -41,7 +41,7 @@ function filterBooks(tr) { //Filters the table according to book name
 	}
 
 	if (filter == "") { //If the input has no text in it, reset table
-		mergeRow();
+		mergeRow(tr);
 	}
 }
 
