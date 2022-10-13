@@ -95,6 +95,10 @@ footer p {
 	padding-right: 0.6em;
 }
 
+.hidden {
+  margin-bottom: 5%;
+}
+
 .hidden .hiddenBody {
 	display: none;
 }
