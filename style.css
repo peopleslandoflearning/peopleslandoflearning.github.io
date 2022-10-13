@@ -109,7 +109,7 @@ footer p {
 	margin-bottom: 2%;
 }
 
-.hiddenHead, .textGroup h2 {
+.hiddenHead, .textGroup h2, .textGroup h3 {
 	margin-top: 5%;
 	margin-bottom: 0%;
 }
