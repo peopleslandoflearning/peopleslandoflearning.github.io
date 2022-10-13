@@ -95,7 +95,11 @@ footer p {
 	padding-right: 0.6em;
 }
 
-.hidden, .hiddenBody, .hiddenHead, .textGroup {
+.hidden {
+	margin-bottom: 3%;
+}
+
+.hiddenBody, .textGroup {
 	margin-bottom: 2.5%;
 }
 
