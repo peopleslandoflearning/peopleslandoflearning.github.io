@@ -45,10 +45,12 @@ function filterBooks(tr) { //Filters the table according to book name
 	}
 }
 
-function toggleHidden(id) {
-	if (id.style.display == "none" || id.style.display == "") {
-		id.style.display = "block";
+function toggleHidden(e) {
+	if (e.style.display == "none" || e.style.display == "") {
+		e.style.display = "block";
+		e.previousElementSibling.firstElementChild.innerText = "▾"
 	} else {
-		id.style.display = "";
+		e.style.display = "";
+		e.previousElementSibling.firstElementChild.innerText = "▸" 
 	}
 }
