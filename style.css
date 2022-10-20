@@ -29,9 +29,12 @@ header, footer, #temp {
 	text-align: center;
 }
 
-header, footer, .container {
+header, footer, #bookContainer, .container {
 	margin: auto;
 	margin-bottom: 1%;
+}
+
+header, footer, .container {
 	max-width: 70%;
 }
 
@@ -43,12 +46,8 @@ footer p {
 	margin: 0;
 }
 
-#buttonMenu {
-	display: flex;
-  	flex-wrap: wrap;
-  	justify-content: center;
-  	align-items: center;
-  	gap: 10px;
+#bookContainer {
+	width: 95%;
 }
 
 #bookTable {
@@ -70,6 +69,14 @@ footer p {
 
 #bookTable, #search {
 	margin-bottom: 1%;
+}
+
+#buttonMenu {
+	display: flex;
+  	flex-wrap: wrap;
+  	justify-content: center;
+  	align-items: center;
+  	gap: 10px;
 }
 
 #search {
