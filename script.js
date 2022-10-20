@@ -6,7 +6,7 @@ function bookCount(table) { //Changes placeholder of input to have the amount of
 function mergeRow(tr) { //Merges rows with the same author name
 	var cell;
 	var headCell = null;
-	for (var i = 1; i < tr.length-1; i++) { 
+	for (var i = 1; i < tr.length; i++) { 
 		cell = tr[i].getElementsByTagName("td")[0];
 		if (headCell == null || cell.innerText !== headCell.innerText) { 
 			headCell = cell; //Keeps track of the upmost cell
@@ -27,7 +27,7 @@ function filterBooks(tr) { //Filters the table according to book name
 	var search, filter, td, txtValue;
 	search = document.getElementById("search");
 	filter = search.value.toUpperCase(); 
-	for (var i = 0; i < tr.length-1; i++) {
+	for (var i = 0; i < tr.length; i++) {
 		td = tr[i].getElementsByTagName("td")[1];
 		if (td) { //If td exists
 			txtValue = td.innerText || td.textContent;
