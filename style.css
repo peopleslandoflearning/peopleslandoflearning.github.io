@@ -70,7 +70,7 @@ footer p {
 }
 
 #bookTable th:hover, #bookTable td:hover, #search {
-	color: var(--linkColor);
+	color: #ffb6ae;
 }
 
 #bookTable, #search {
