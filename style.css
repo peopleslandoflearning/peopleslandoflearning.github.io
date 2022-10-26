@@ -59,6 +59,12 @@ footer p {
 	padding-left: 0.5%;
 }
 
+#bookTable th {
+	position: sticky;
+  	top: 0;
+  	background-color: var(--linkColor);
+}
+
 #bookTable, #bookTable th, #bookTable td {
 	border: 1px solid var(--borderColor);
 }
