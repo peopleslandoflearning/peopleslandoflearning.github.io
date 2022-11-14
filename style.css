@@ -69,8 +69,12 @@ footer p {
 	border: 1px solid var(--borderColor);
 }
 
-#bookTable th:hover, #bookTable td:hover, #search {
-	color: #ffb6ae;
+#bookTable th:hover {
+	color: var(--backColor);
+}
+
+#bookTable td:hover {
+	color: var(--linkColor);
 }
 
 #bookTable, #search {
@@ -90,6 +94,7 @@ footer p {
 	border: 3px solid var(--borderColor);
 	border-radius: 25px;
 	background-color: var(--backColor);
+	color: var(--linkColor);
 	padding-left: 1%;
 	width: 98%;
 }
