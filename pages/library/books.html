@@ -29,11 +29,11 @@
 			<input type="text" id="search" onkeyup="filterBooks(tr)" placeholder="">
 			<table id="bookTable"> 
 				<tr>
-					<th width="15%"><h3>Author</h3></th>
-					<th width="40%"><h3>Title</h3></th>
-					<th width="20%"><h3>Tags</h3></th>
-					<th width="8%"><h3>Audio</h3></th>
-					<th width="17%"><h3>Notes</h3></th>
+					<th onClick="toggleColumn(this)" width="15%"><h3>Author</h3></th>
+					<th onClick="toggleColumn(this)" width="40%"><h3>Title</h3></th>
+					<th onClick="toggleColumn(this)" width="20%"><h3>Tags</h3></th>
+					<th onClick="toggleColumn(this)" width="8%"><h3>Audio</h3></th>
+					<th onClick="toggleColumn(this)" width="17%"><h3>Notes</h3></th>
 				</tr>
 				<!--- Book adding template (dont worry about rowspans, its taken care of automatically)
 				<tr> 
@@ -2277,5 +2277,6 @@
 		var tr = table.getElementsByTagName("tr");
 		document.getElementById('search').placeholder = "Search " + bookCount(table) + " books..."; //Startup functions
 		mergeRow(tr)
+		toggleColumn(tr[0].getElementsByTagName("th")[1]) //Marks the second column to search
 	</script>
 </html>

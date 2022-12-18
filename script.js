@@ -25,10 +25,11 @@ function unmergeRow(i) { //Gets rid of rowspans and redisplays the given cell
 
 function filterBooks(tr) { //Filters the table according to book name
 	var search, filter, td, txtValue;
+	col = document.getElementById("activeCol").cellIndex; //Sets to the index of the active column
 	search = document.getElementById("search");
 	filter = search.value.toUpperCase(); 
 	for (var i = 0; i < tr.length; i++) {
-		td = tr[i].getElementsByTagName("td")[1];
+		td = tr[i].getElementsByTagName("td")[col];
 		if (td) { //If td exists
 			txtValue = td.innerText || td.textContent;
 			if (txtValue.toUpperCase().indexOf(filter) > -1) { //The indexOf() returns a -1 if a search is not found
@@ -43,6 +44,16 @@ function filterBooks(tr) { //Filters the table according to book name
 	if (filter == "") { //If the input has no text in it, reset table
 		mergeRow(tr);
 	}
+}
+
+function toggleColumn(c) {
+	i = c.parentNode.firstElementChild;
+	do { //Make sure that there is only one active column (also remove any styling)
+		i.style.color = "";
+		i.removeAttribute("id");
+	} while (i = i.nextElementSibling)
+	c.style.color = "#e8d8a5"; //Differenciates the active column
+	c.setAttribute("id", "activeCol")
 }
 
 function toggleHidden(e) {
