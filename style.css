@@ -77,6 +77,10 @@ footer p {
 	color: var(--linkColor);
 }
 
+#bookTable td:nth-child(1) {
+  text-align: center;
+}
+
 #bookTable, #search {
 	margin-bottom: 1%;
 }
