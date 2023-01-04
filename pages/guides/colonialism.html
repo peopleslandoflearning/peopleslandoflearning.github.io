@@ -28,29 +28,20 @@
 		<div class="container">
       		<p>This guide provides resources on the topics of colonialism, imperialism and nationhood.</p>
       		<p>Each section shall have at least three resources each when complete, three books, three articles or pamphlets and three videos.</p>
-			<!-- Sub category template
 			<div class="hidden">
-				<h3 class="hiddenHead" onClick="toggleHidden(this.nextElementSibling)">Books <span class="hiddenIcon">▸</span></h2>
-				<div class="hiddenBody">
-					<ol>
-						<li><h4>Title</h4>
-						<p>- Author, Page count or time count</p>
-						<p><a href="">Text</a> | Audio</p></li>
-					</ol>
-				</div>
-			</div>
-			-->
-			<div class="hidden">
-				<h2 class="hiddenHead" onClick="toggleHidden(this.nextElementSibling)">Colonialism <span class="hiddenIcon">▸</span></h2>
+				<input type="checkbox" id="colonialism" class="hiddenToggle">
+				<label class="hiddenHead" for="colonialism"><h2>Colonialism</h2></label>
 				<div class="hiddenBody">
 					<div class="hidden">
-						<h3 class="hiddenHead" onClick="toggleHidden(this.nextElementSibling)">Articles and Pamphlets <span class="hiddenIcon">▸</span></h2>
+						<input type="checkbox" id="colonialism-articles" class="hiddenToggle">
+						<label class="hiddenHead" for="colonialism-articles"><h3>Articles and Pamphlets</h3></label>
 						<div class="hiddenBody">
 							<p>Nothing so far! Please suggest resources if you have any.</p>
 						</div>
 					</div>
 					<div class="hidden">
-						<h3 class="hiddenHead" onClick="toggleHidden(this.nextElementSibling)">Books <span class="hiddenIcon">▸</span></h2>
+						<input type="checkbox" id="colonialism-books" class="hiddenToggle">
+						<label class="hiddenHead" for="colonialism-books"><h3>Books</h3></label>
 						<div class="hiddenBody">
 							<ol>
 								<li><h4>Wretched of the Earth</h4>
@@ -66,7 +57,8 @@
 						</div>
 					</div>
 					<div class="hidden">
-						<h3 class="hiddenHead" onClick="toggleHidden(this.nextElementSibling)">Videos <span class="hiddenIcon">▸</span></h2>
+						<input type="checkbox" id="colonialism-videos" class="hiddenToggle">
+						<label class="hiddenHead" for="colonialism-videos"><h3>Videos</h3></label>
 						<div class="hiddenBody">
 							<ol>
 								<li><h4>How Race Was Invented</h4>
@@ -78,10 +70,12 @@
 				</div>
 			</div>
 			<div class="hidden">
-				<h2 class="hiddenHead" onClick="toggleHidden(this.nextElementSibling)">Imperialism <span class="hiddenIcon">▸</span></h2>
+				<input type="checkbox" id="imperialism" class="hiddenToggle">
+				<label class="hiddenHead" for="imperialism"><h2>Imperialism</h2></label>
 				<div class="hiddenBody">
 					<div class="hidden">
-						<h3 class="hiddenHead" onClick="toggleHidden(this.nextElementSibling)">Articles and Pamphlets <span class="hiddenIcon">▸</span></h2>
+						<input type="checkbox" id="imperialism-articles" class="hiddenToggle">
+						<label class="hiddenHead" for="imperialism-articles"><h3>Articles and Pamphlets</h3></label>
 						<div class="hiddenBody">
 							<ol>
 								<li><h4>Red Theory: Imperialism, or Monopoly Capitalism</h4>
@@ -92,7 +86,8 @@
 						</div>
 					</div>
 					<div class="hidden">
-						<h3 class="hiddenHead" onClick="toggleHidden(this.nextElementSibling)">Books <span class="hiddenIcon">▸</span></h2>
+						<input type="checkbox" id="imperialism-books" class="hiddenToggle">
+						<label class="hiddenHead" for="imperialism-books"><h3>Books</h3></label>
 						<div class="hiddenBody">
 							<ol>
      							<li><h4>Imperialism: The Highest Stage of Capitalism</h4>
@@ -108,7 +103,8 @@
 						</div>
 					</div>
 					<div class="hidden">
-						<h3 class="hiddenHead" onClick="toggleHidden(this.nextElementSibling)">Videos <span class="hiddenIcon">▸</span></h2>
+						<input type="checkbox" id="imperialism-videos" class="hiddenToggle">
+						<label class="hiddenHead" for="imperialism-videos"><h3>Videos</h3></label>
 						<div class="hiddenBody">
 							<ol>
 								<li><h4>How Rich Countries Rob The Poor</h4>
@@ -125,23 +121,26 @@
 					</div>
 				</div>
 			</div>
-				<div class="hidden">
-				<h2 class="hiddenHead" onClick="toggleHidden(this.nextElementSibling)">Indigeneity <span class="hiddenIcon">▸</span></h2>
+			<div class="hidden">
+				<input type="checkbox" id="indigeneity" class="hiddenToggle">
+				<label class="hiddenHead" for="indigeneity"><h2>Indigeneity</h2></label>
 				<div class="hiddenBody">
 					<div class="hidden">
-						<h3 class="hiddenHead" onClick="toggleHidden(this.nextElementSibling)">Articles and Pamphlets <span class="hiddenIcon">▸</span></h2>
+						<input type="checkbox" id="indigeneity-articles" class="hiddenToggle">
+						<label class="hiddenHead" for="indigeneity-articles"><h3>Articles and Pamphlets</h3></label>
 						<div class="hiddenBody">
 							<p>Nothing so far! Please suggest resources if you have any.</p>
 						</div>
 					</div>
 					<div class="hidden">
-						<h3 class="hiddenHead" onClick="toggleHidden(this.nextElementSibling)">Books <span class="hiddenIcon">▸</span></h2>
+						<input type="checkbox" id="indigeneity-books" class="hiddenToggle">
+						<label class="hiddenHead" for="indigeneity-books"><h3>Books</h3></label>
 						<div class="hiddenBody">
 							<p>Nothing so far! Please suggest resources if you have any.</p>
 						</div>
 					</div>
 					<div class="hidden">
-						<h3 class="hiddenHead" onClick="toggleHidden(this.nextElementSibling)">Videos <span class="hiddenIcon">▸</span></h2>
+						<label class="hiddenHead" for="indigeneity-videos"><h3>Videos</h3></label>
 						<div class="hiddenBody">
 							<p>Nothing so far! Please suggest resources if you have any.</p>
 						</div>
@@ -149,16 +148,19 @@
 				</div>
 			</div>
 			<div class="hidden">
-				<h2 class="hiddenHead" onClick="toggleHidden(this.nextElementSibling)">Nationhood <span class="hiddenIcon">▸</span></h2>
+				<input type="checkbox" id="nationhood" class="hiddenToggle">
+				<label class="hiddenHead" for="nationhood"><h2>Nationhood</h2></label>
 				<div class="hiddenBody">
 					<div class="hidden">
-						<h3 class="hiddenHead" onClick="toggleHidden(this.nextElementSibling)">Articles and Pamphlets <span class="hiddenIcon">▸</span></h2>
+						<input type="checkbox" id="nationhood-articles" class="hiddenToggle">
+						<label class="hiddenHead" for="nationhood-articles"><h3>Articles and Pamphlets</h3></label>
 						<div class="hiddenBody">
 							<p>Nothing so far! Please suggest resources if you have any.</p>
 						</div>
 					</div>
 					<div class="hidden">
-						<h3 class="hiddenHead" onClick="toggleHidden(this.nextElementSibling)">Books <span class="hiddenIcon">▸</span></h2>
+						<input type="checkbox" id="nationhood-books" class="hiddenToggle">
+						<label class="hiddenHead" for="nationhood-books"><h3>Books</h3></label>
 						<div class="hiddenBody">
 							<ol>
      							<li><h4>On the National Question</h4>
@@ -171,7 +173,8 @@
 						</div>
 					</div>
 					<div class="hidden">
-						<h3 class="hiddenHead" onClick="toggleHidden(this.nextElementSibling)">Videos <span class="hiddenIcon">▸</span></h2>
+						<input type="checkbox" id="nationhood-videos" class="hiddenToggle">
+						<label class="hiddenHead" for="nationhood-videos"><h3>Videos</h3></label>
 						<div class="hiddenBody">
 							<p>Nothing so far! Please suggest resources if you have any.</p>
 						</div>
@@ -179,10 +182,12 @@
 				</div>
 			</div>
 			<div class="hidden">
-				<h2 class="hiddenHead" onClick="toggleHidden(this.nextElementSibling)">Settler Colonialism <span class="hiddenIcon">▸</span></h2>
+				<input type="checkbox" id="settler" class="hiddenToggle">
+				<label class="hiddenHead" for="settler"><h2>Settler Colonialism</h2></label>
 				<div class="hiddenBody">
 					<div class="hidden">
-						<h3 class="hiddenHead" onClick="toggleHidden(this.nextElementSibling)">Articles and Pamphlets <span class="hiddenIcon">▸</span></h2>
+						<input type="checkbox" id="settler-articles" class="hiddenToggle">
+						<label class="hiddenHead" for="settler-articles"><h3>Articles and Pamphlets</h3></label>
 						<div class="hiddenBody">
 							<ol>
 								<li><h4>Settler Colonialism and the Elimination of the Native</h4>
@@ -191,7 +196,8 @@
 						</div>
 					</div>
 					<div class="hidden">
-						<h3 class="hiddenHead" onClick="toggleHidden(this.nextElementSibling)">Books <span class="hiddenIcon">▸</span></h2>
+						<input type="checkbox" id="settler-books" class="hiddenToggle">
+						<label class="hiddenHead" for="settler-books"><h3>Books</h3></label>
 						<div class="hiddenBody">
 							<ol>
      							<li><h4>Red Skin, White Masks</h4>
@@ -201,7 +207,8 @@
 						</div>
 					</div>
 					<div class="hidden">
-						<h3 class="hiddenHead" onClick="toggleHidden(this.nextElementSibling)">Videos <span class="hiddenIcon">▸</span></h2>
+						<input type="checkbox" id="settler-videos" class="hiddenToggle">
+						<label class="hiddenHead" for="settler-videos"><h3>Videos</h3></label>
 						<div class="hiddenBody">
 							<p>Nothing so far! Please suggest resources if you have any.</p>
 						</div>

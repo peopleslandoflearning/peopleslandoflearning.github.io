@@ -55,13 +55,3 @@ function toggleColumn(c) {
 	c.style.color = "#e8d8a5"; //Differenciates the active column
 	c.setAttribute("id", "activeCol")
 }
-
-function toggleHidden(e) {
-	if (e.style.display == "none" || e.style.display == "") {
-		e.style.display = "block";
-		e.previousElementSibling.firstElementChild.innerText = "▾"
-	} else {
-		e.style.display = "";
-		e.previousElementSibling.firstElementChild.innerText = "▸" 
-	}
-}

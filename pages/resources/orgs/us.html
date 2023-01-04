@@ -26,16 +26,9 @@
 			<hr/>
 		</header>
 		<div class="container">
-			<!-- Hidden container template
 			<div class="hidden">
-				<h2 class="hiddenHead" onClick="toggleHidden(this.nextElementSibling)">Category <span class="hiddenIcon">▸</span></h2>
-				<div class="hiddenBody">
-     				<a href=""><p>Resource Name</p></a>
-				</div>
-			</div>
-			-->
-			<div class="hidden">
-				<h2 class="hiddenHead" onClick="toggleHidden(this.nextElementSibling)">National <span class="hiddenIcon">▸</span></h2>
+				<input type="checkbox" id="nation" class="hiddenToggle">
+				<label class="hiddenHead" for="nation"><h2>National</h2></label>
 				<div class="hiddenBody">
 					<a href="https://www.americanpartyoflabor.com/"><p>American Party of Labor</p></a>
 					<a href="https://blackallianceforpeace.com/"><p>Black Alliance For Peace</p></a>
@@ -54,36 +47,33 @@
 				</div>
 			</div>
 			<div class="hidden">
-				<h2 class="hiddenHead" onClick="toggleHidden(this.nextElementSibling)">By State <span class="hiddenIcon">▸</span></h2>
+				<input type="checkbox" id="state" class="hiddenToggle">
+				<label class="hiddenHead" for="state"><h2>By State</h2></label>
 				<div class="hiddenBody">
-					<!-- Hidden subcontainer template
 					<div class="hidden">
-						<h3 class="hiddenHead" onClick="toggleHidden(this.nextElementSibling)">Category <span class="hiddenIcon">></span></h3>
-						<div class="hiddenBody">
-							<a href=""><p>Resource Name</p></a>
-						</div>
-					</div>
-					-->
-					<div class="hidden">
-						<h3 class="hiddenHead" onClick="toggleHidden(this.nextElementSibling)">Alabama <span class="hiddenIcon">▸</span></h3>
+						<input type="checkbox" id="alabama" class="hiddenToggle">
+						<label class="hiddenHead" for="alabama"><h3>Alabama</h3></label>
 						<div class="hiddenBody">
 							<a href="https://www.facebook.com/pslbirmingham/"><p>PSL Birmingham</p></a>
 						</div>
 					</div>
 					<div class="hidden">
-						<h3 class="hiddenHead" onClick="toggleHidden(this.nextElementSibling)">Alaska <span class="hiddenIcon">▸</span></h3>
+						<input type="checkbox" id="alaska" class="hiddenToggle">
+						<label class="hiddenHead" for="alaska"><h3>Alaska</h3></label>
 						<div class="hiddenBody">
 							<a href="https://linktr.ee/pslanchorage/"><p>PSL Anchorage</p></a>
 						</div>
 					</div>
 					<div class="hidden">
-						<h3 class="hiddenHead" onClick="toggleHidden(this.nextElementSibling)">Arizona <span class="hiddenIcon">▸</span></h3>
+						<input type="checkbox" id="arizona" class="hiddenToggle">
+						<label class="hiddenHead" for="arizona"><h3>Arizona</h3></label>
 						<div class="hiddenBody">
 							<a href="https://twitter.com/pslphoenix/"><p>PSL Phoenix</p></a>
 						</div>
 					</div>
 					<div class="hidden">
-						<h3 class="hiddenHead" onClick="toggleHidden(this.nextElementSibling)">California <span class="hiddenIcon">▸</span></h3>
+						<input type="checkbox" id="california" class="hiddenToggle">
+						<label class="hiddenHead" for="california"><h3>California</h3></label>
 						<div class="hiddenBody">
 							<a href="https://linktr.ee/lafuerzacsulb/"><p>La F.U.E.R.Z.A Student Association</p></a>
 							<a href="https://linktr.ee/PSL_LosAngeles/"><p>PSL Los Angeles</p></a>
@@ -93,94 +83,109 @@
 						</div>
 					</div>
 					<div class="hidden">
-						<h3 class="hiddenHead" onClick="toggleHidden(this.nextElementSibling)">Colorado <span class="hiddenIcon">▸</span></h3>
+						<input type="checkbox" id="colorado" class="hiddenToggle">
+						<label class="hiddenHead" for="colorado"><h3>Colorado</h3></label>
 						<div class="hiddenBody">
 							<a href="https://twitter.com/Denver_PSL/"><p>PSL Denver</p></a>
 						</div>
 					</div>
 					<div class="hidden">
-						<h3 class="hiddenHead" onClick="toggleHidden(this.nextElementSibling)">Connecticut <span class="hiddenIcon">▸</span></h3>
+						<input type="checkbox" id="connecticut" class="hiddenToggle">
+						<label class="hiddenHead" for="connecticut"><h3>Connecticut</h3></label>
 						<div class="hiddenBody">
 							<a href="https://www.facebook.com/PSLCT/"><p>PSL New Haven</p></a>
 						</div>
 					</div>
 					<div class="hidden">
-						<h3 class="hiddenHead" onClick="toggleHidden(this.nextElementSibling)">Florida <span class="hiddenIcon">▸</span></h3>
+						<input type="checkbox" id="florida" class="hiddenToggle">
+						<label class="hiddenHead" for="florida"><h3>Florida</h3></label>
 						<div class="hiddenBody">
 							<a href="https://linktr.ee/pslcgc/"><p>PSL Central Gulf Coast</p></a>
 							<a href="https://twitter.com/PSLTampaBay/"><p>PSL Tampa Bay</p></a>
 						</div>
 					</div>
 					<div class="hidden">
-						<h3 class="hiddenHead" onClick="toggleHidden(this.nextElementSibling)">Georgia <span class="hiddenIcon">▸</span></h3>
+						<input type="checkbox" id="georgia" class="hiddenToggle">
+						<label class="hiddenHead" for="georgia"><h3>Georgia</h3></label>
 						<div class="hiddenBody">
 							<a href="https://twitter.com/PSLAtlanta/"><p>PSL Atlanta</p></a>
 						</div>
 					</div>
 					<div class="hidden">
-						<h3 class="hiddenHead" onClick="toggleHidden(this.nextElementSibling)">Illinois <span class="hiddenIcon">▸</span></h3>
+						<input type="checkbox" id="illinois" class="hiddenToggle">
+						<label class="hiddenHead" for="illinois"><h3>Illinois</h3></label>
 						<div class="hiddenBody">
 							<a href="https://twitter.com/pslchampaign/"><p>PSL Champaign Urbana</p></a>
 							<a href="https://twitter.com/PSLchicago/"><p>Resource Name</p></a>
 						</div>
 					</div>
 					<div class="hidden">
-						<h3 class="hiddenHead" onClick="toggleHidden(this.nextElementSibling)">Indiana <span class="hiddenIcon">▸</span></h3>
+						<input type="checkbox" id="indiana" class="hiddenToggle">
+						<label class="hiddenHead" for="indiana"><h3>Indiana</h3></label>
 						<div class="hiddenBody">
 							<a href="https://twitter.com/PSLIndianapolis/"><p>PSL Indianapolis</p></a>
 						</div>
 					</div>
 					<div class="hidden">
-						<h3 class="hiddenHead" onClick="toggleHidden(this.nextElementSibling)">Maryland <span class="hiddenIcon">▸</span></h3>
+						<input type="checkbox" id="maryland" class="hiddenToggle">
+						<label class="hiddenHead" for="maryland"><h3>Maryland</h3></label>
 						<div class="hiddenBody">
 							<a href="https://twitter.com/BaltimorePsl/"><p>PSL Baltimore</p></a>
 						</div>
 					</div>
 					<div class="hidden">
-						<h3 class="hiddenHead" onClick="toggleHidden(this.nextElementSibling)">Massachusetts <span class="hiddenIcon">▸</span></h3>
+						<input type="checkbox" id="massachusetts" class="hiddenToggle">
+						<label class="hiddenHead" for="massachusetts"><h3>Massachusetts</h3></label>
 						<div class="hiddenBody">
 							<a href="https://linktr.ee/bostonpsl/"><p>PSL Boston</p></a>
 						</div>
 					</div>
 					<div class="hidden">
-						<h3 class="hiddenHead" onClick="toggleHidden(this.nextElementSibling)">Michigan <span class="hiddenIcon">▸</span></h3>
+						<input type="checkbox" id="michigan" class="hiddenToggle">
+						<label class="hiddenHead" for="michigan"><h3>Michigan</h3></label>
 						<div class="hiddenBody">
 							<a href="https://twitter.com/RBPPGR/"><p>Royal Black Panther Party Grand Rapids</p></a>
 							<a href="https://twitter.com/PSLdetroit/"><p>PSL Detroit</p></a>
 						</div>
 					</div>
 					<div class="hidden">
-						<h3 class="hiddenHead" onClick="toggleHidden(this.nextElementSibling)">Mississippi <span class="hiddenIcon">▸</span></h3>
+						<input type="checkbox" id="mississipii" class="hiddenToggle">
+						<label class="hiddenHead" for="mississippi"><h3>Mississippi</h3></label>
 						<div class="hiddenBody">
 							<a href="https://cooperationjackson.org/"><p>Cooperation Jackson</p></a>
 						</div>
 					</div>
 					<div class="hidden">
-						<h3 class="hiddenHead" onClick="toggleHidden(this.nextElementSibling)">Missouri <span class="hiddenIcon">▸</span></h3>
+						<input type="checkbox" id="missouri" class="hiddenToggle">
+						<label class="hiddenHead" for="missouri"><h3>Missouri</h3></label>
 						<div class="hiddenBody">
 							<a href="https://twitter.com/PSLSpringfield/"><p>PSL Springfield</p></a>
 						</div>
 					</div>
 					<div class="hidden">
-						<h3 class="hiddenHead" onClick="toggleHidden(this.nextElementSibling)">New Hampshire <span class="hiddenIcon">▸</span></h3>
+						<input type="checkbox" id="new-hampshire" class="hiddenToggle">
+						<label class="hiddenHead" for="new-hampshire"><h3>New Hampshire</h3></label>
 						<div class="hiddenBody">
 							<a href="https://twitter.com/PSLsnh/"><p>PSL Southern New Hampshire</p></a>
 						</div>
 					</div>
 					<div class="hidden">
-						<h3 class="hiddenHead" onClick="toggleHidden(this.nextElementSibling)">New Mexico <span class="hiddenIcon">▸</span></h3>
+						<input type="checkbox" id="new-mexico" class="hiddenToggle">
+						<label class="hiddenHead" for="new-mexico"><h3>New Mexico</h3></label>
 						<div class="hiddenBody">
 							<a href="https://twitter.com/abqpsl/"><p>PSL Albuquerque</p></a>
 						</div>
 					</div>
 					<div class="hidden">
-						<h3 class="hiddenHead" onClick="toggleHidden(this.nextElementSibling)">Texas <span class="hiddenIcon">▸</span></h3>
+						<input type="checkbox" id="texas" class="hiddenToggle">
+						<label class="hiddenHead" for="texas"><h3>Texas</h3></label>
 						<div class="hiddenBody">
 							<a href="https://www.egpgunclubcentraltexas.com/"><p>Elmer Geronimo Pratt Gun Club</p></a>
 						</div>
 					</div>
 					<div class="hidden">
-						<h3 class="hiddenHead" onClick="toggleHidden(this.nextElementSibling)">Washington DC <span class="hiddenIcon">▸</span></h3>
+						<input type="checkbox" id="dc" class="hiddenToggle">
+						<label class="hiddenHead" for="dc"><h3>Washington DC</h3></label>
 						<div class="hiddenBody">
 							<a href="https://blackbodiesforblackpower.com/"><p>Black Bodies For Black Power</p></a>
 							<a href="https://linktr.ee/psldc/"><p>PSL Washington DC</p></a>

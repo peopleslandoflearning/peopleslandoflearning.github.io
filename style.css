@@ -118,15 +118,15 @@ footer p {
 }
 
 .hidden {
-	margin-bottom: 3%;
-}
-
-.hiddenBody, .textGroup {
-	margin-bottom: 2.5%;
+	padding: 0.01px;
 }
 
 .hidden .hiddenBody {
 	display: none;
+}
+
+.hiddenBody, .textGroup {
+	margin-bottom: 2.5%;
 }
 
 .hiddenBody, .hiddenHead, .textGroup {
@@ -138,11 +138,38 @@ footer p {
 	margin-bottom: 1.5%;
 }
 
-.hiddenHead, .textGroup h2, .textGroup h3 {
-	margin-top: 0%;
-	margin-bottom: 0%;
+.hiddenHead {
+	cursor: pointer;
+	margin: 0;
+}
+
+.hiddenHead::before {
+	content: "";
+	position: absolute;
+	width: 0;
+	height: 0;
+	top: 50%;
+	left: 10px;
+}
+
+.hiddenToggle {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 0;
+	opacity: 0;
+}
+
+.hiddenToggle:checked ~ .hiddenHead ~ .hiddenBody {
+	display: block;
 }
 
 .quote {
 	font-style: italic;
+}
+
+.textGroup h2, .textGroup h3 {
+	margin-top: 0;
+	margin-bottom: 0;
 }

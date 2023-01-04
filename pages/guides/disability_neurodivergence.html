@@ -11,7 +11,6 @@
 		<meta content="/assets/icon.png" property="og:image"/>
 		<meta content="#ab5675" data-react-helmet="true" name="theme-color"/>
 		<link href="/style.css" rel="stylesheet" type="text/css" media="all">
-		<script src="/script.js"></script>
   	</head>
  	<body>
 		<header>
@@ -29,22 +28,26 @@
       		<p>This guide provides resources on the topics of disability.</p>
       		<p>Each section shall have at least three resources each when complete, three books, three articles or pamphlets and three videos.</p>
 			<div class="hidden">
-				<h2 class="hiddenHead" onClick="toggleHidden(this.nextElementSibling)">Disability <span class="hiddenIcon">▸</span></h2>
+				<input type="checkbox" id="disability" class="hiddenToggle">
+				<label class="hiddenHead" for="disability"><h2>Disability</h2></label>
 				<div class="hiddenBody">
 					<div class="hidden">
-						<h3 class="hiddenHead" onClick="toggleHidden(this.nextElementSibling)">Articles and Pamphlets <span class="hiddenIcon">▸</span></h2>
+						<input type="checkbox" id="disability-articles" class="hiddenToggle">
+						<label class="hiddenHead" for="disability-articles"><h3>Articles and Pamphlets</h3></label>
 						<div class="hiddenBody">
 							<p>Nothing so far! Please suggest resources if you have any.</p>
 						</div>
 					</div>
 					<div class="hidden">
-						<h3 class="hiddenHead" onClick="toggleHidden(this.nextElementSibling)">Books <span class="hiddenIcon">▸</span></h2>
+						<input type="checkbox" id="disability-books" class="hiddenToggle">
+						<label class="hiddenHead" for="disability-books"><h3>Books</h3></label>
 						<div class="hiddenBody">
 							<p>Nothing so far! Please suggest resources if you have any.</p>
 						</div>
 					</div>
 					<div class="hidden">
-						<h3 class="hiddenHead" onClick="toggleHidden(this.nextElementSibling)">Videos <span class="hiddenIcon">▸</span></h2>
+						<input type="checkbox" id="disability-videos" class="hiddenToggle">
+						<label class="hiddenHead" for="disability-videos"><h3>Videos</h3></label>
 						<div class="hiddenBody">
 							<p>Nothing so far! Please suggest resources if you have any.</p>
 						</div>
