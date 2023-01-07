@@ -117,10 +117,6 @@ footer p {
 	padding-right: 0.6em;
 }
 
-.hidden {
-	padding: 0.01px;
-}
-
 .hidden .hiddenBody {
 	display: none;
 }
@@ -143,13 +139,15 @@ footer p {
 	margin: 0;
 }
 
-.hiddenHead::before {
-	content: "";
-	position: absolute;
+.hiddenHead h2::after, .hiddenHead h3::after  {
+	content: " ▶";
 	width: 0;
 	height: 0;
-	top: 50%;
-	left: 10px;
+}
+
+.hiddenHead h2, .hiddenHead h3, .textGroup h2, .textGroup h3 {
+	margin-top: 0.5%;
+	margin-bottom: 0.5%;
 }
 
 .hiddenToggle {
@@ -164,11 +162,10 @@ footer p {
 	display: block;
 }
 
-.quote {
-	font-style: italic;
+.hiddenToggle:checked + .hiddenHead h3::after, .hiddenToggle:checked + .hiddenHead h2::after {
+	content: " ▼";
 }
 
-.textGroup h2, .textGroup h3 {
-	margin-top: 0;
-	margin-bottom: 0;
+.quote {
+	font-style: italic;
 }
