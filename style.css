@@ -118,15 +118,11 @@ footer p {
 }
 
 .hidden {
-	padding-bottom: 0.5%;
+	padding-bottom: 1%;
 }
 
-.hidden .hiddenBody {
+.hiddenBody {
 	display: none;
-}
-
-.hiddenBody, .textGroup {
-	margin-bottom: 2.5%;
 }
 
 .hiddenBody, .hiddenHead, .textGroup {
@@ -134,8 +130,12 @@ footer p {
 }
 
 .hiddenBody *, .textGroup * {
-	margin-top: 1.5%;
-	margin-bottom: 1.5%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+
+.hiddenBody ol, .hiddenBody ul {
+	padding: 0;
 }
 
 .hiddenHead {
@@ -172,4 +172,8 @@ footer p {
 
 .quote {
 	font-style: italic;
+}
+
+.textGroup {
+	margin-bottom: 2.5%;
 }
