@@ -138,6 +138,10 @@ footer p {
 	padding: 0;
 }
 
+.hiddenBody p {
+	font-size: 70%;
+}
+
 .hiddenHead {
 	cursor: pointer;
 	margin: 0;
@@ -176,8 +180,4 @@ footer p {
 
 .textGroup {
 	margin-bottom: 2.5%;
-}
-
-.small {
-	font-size: 10px;
 }
