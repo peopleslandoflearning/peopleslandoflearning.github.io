@@ -177,3 +177,7 @@ footer p {
 .textGroup {
 	margin-bottom: 2.5%;
 }
+
+.small {
+	font-size: 6px;
+}
