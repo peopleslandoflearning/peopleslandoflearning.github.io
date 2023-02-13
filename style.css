@@ -57,6 +57,8 @@ footer p {
 
 #bookTable td {
 	padding-left: 0.5%;
+	padding-bottom: 1%;
+	padding-top: 1%;
 }
 
 #bookTable th {
