@@ -25,6 +25,10 @@ a:visited {
 	color: #6b203b; /* Old colour: #6b203b */
 }
 
+blockquote {
+	  font-style: italic;
+}
+
 header, footer, #temp {
 	text-align: center;
 }
@@ -180,10 +184,6 @@ kbd {
 
 .hiddenToggle:checked + .hiddenHead h3::after, .hiddenToggle:checked + .hiddenHead h2::after {
 	content: " ▼";
-}
-
-.quote {
-	font-style: italic;
 }
 
 .textGroup {
